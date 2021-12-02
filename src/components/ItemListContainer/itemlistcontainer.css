@@ -1,0 +1,7 @@
+.listContainer{
+    height: calc(20vh - 50px);
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

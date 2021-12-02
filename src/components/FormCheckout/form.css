@@ -1,0 +1,19 @@
+.container-form{
+    margin-top: 80px;
+    border-top:solid 1px #ececec;
+    min-height:50vh;
+}
+.container-form h2{
+    padding: 20px 0px;
+}
+.input-form{
+    width: 30%;
+    padding:10px;
+    margin:10px;
+}
+.thanks{
+    border:none;
+}
+body{
+    overflow-x: hidden;
+}

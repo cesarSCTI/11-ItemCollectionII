@@ -1,0 +1,77 @@
+p{
+    margin:0;
+}
+.contenido{
+    display:flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+.title{
+    text-align: left;
+    text-transform: capitalize;
+    padding: 50px 20px;
+    border-bottom: solid 2px #8fe5dc ;
+}
+.description{
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: solid 2px #2fc4b1 ;
+}
+
+.tags ul{
+    list-style: none;
+    text-align: left;
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.tags ul >li{
+    margin-right: 10px;
+}
+.category{
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: solid 2px #127c72 ;
+}
+.colors{
+    padding: 10px;
+    border-bottom: solid 2px #8fe5dc ;
+}
+.colors ul{
+    list-style: none;
+    text-align: left;
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.colors ul >li{
+    margin-right: 10px;
+}
+.price{
+    text-align: left;
+    padding: 20px 0px 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price p{
+    width: 50%;
+}
+.tags, .colors{
+    padding: 10px 20px;
+    text-align: left;
+    border-bottom: solid 2px #289c8f ;
+}
+.img-conent{
+    overflow: hidden;
+}
+.img-item{
+    width: 100%;
+    padding: 5%;
+}
+@media only screen and (max-width:600px){
+    .contenido {
+        max-width: 100%;
+        padding: 0 5%;
+    }
+}

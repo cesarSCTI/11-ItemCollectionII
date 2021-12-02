@@ -1,0 +1,87 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:100%;
+    padding:10px;
+}
+.item{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    min-height: 200px;
+    margin-top: 10px;
+}
+.group{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #fff;
+    border:solid 1px #2fc4b2;
+    width: 100%;
+    margin-top: 10px;
+}
+.group-add{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 10px;
+}
+.count{
+    width:150px;
+    text-align: center;
+}
+.btn{
+    border:none;
+    color:#000e;
+}
+.btn:focus{
+    box-shadow:none;
+}
+.btn:hover{
+    color:#2fc4b2;
+}
+.addOn{
+    background: #2fc4b2;
+    color:#fff;
+    width: 100%;
+    border-radius: 0px;
+    transition:.7s;
+}
+.addOn:hover{
+    background: #117c6f;
+    color:#fff;
+    width: 100%;
+    border-radius: 20px;
+}
+.alert{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 350px;
+    color:#117c6f;
+    background: #b2f0e8;
+    top:15%;
+    right: 0%;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.addOnCart{
+    background: #b2f0e8;
+    color:#000;
+    width: 100%;
+    border-radius: 0px;
+    transition:.7s;
+}
+.addOnCart:hover{
+    background: #117c6f;
+    color:#fff;
+    width: 100%;
+    border-radius: 20px;
+}

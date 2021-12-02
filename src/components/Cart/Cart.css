@@ -1,0 +1,15 @@
+.btnRmv{
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 22px;
+    height: 30px;
+    width: 30px;
+}
+.btnRmv:hover{
+    box-shadow: #ececec 0px 0px 10px;
+}
+
+.totalText{
+    font-weight: 800;
+}

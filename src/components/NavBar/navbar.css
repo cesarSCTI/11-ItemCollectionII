@@ -1,0 +1,29 @@
+.margenleft{
+    margin-left: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item{
+    margin:0 10px;
+    color:#000;
+    text-decoration: none;
+}
+.qty{
+    background-color: #2fc4b2;
+    color: #fff;
+    /*position: absolute;*/
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    /*top: 20px;
+    right: 15px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:600px){
+    .margenleft{
+        margin-left: 0;
+    }
+}
